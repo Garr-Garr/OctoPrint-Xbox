@@ -4,13 +4,13 @@
 plugin_identifier =          "xbox"
 plugin_package =             "octoprint_xbox"
 plugin_name =                "OctoPrint-Xbox"
-plugin_version =             "0.1.0"
+plugin_version =             "0.2.0"
 plugin_description =         """A plugin to control the 3D printer with an Xbox 360 wireless controller."""
 plugin_author =              "OutsourcedGuru"
 plugin_author_email =        "support@outsourced.guru"
 plugin_url =                 "https://github.com/OutsourcedGuru/OctoPrint-Xbox"
 plugin_license =             "AGPLv3"
-plugin_requires =            []
+plugin_requires = ["inputs>=0.5"]  # For Xbox controller input handling
 
 ### --------------------------------------------------------------------------------------------------------------------
 ### More advanced options that you usually shouldn't have to touch follow after this point
